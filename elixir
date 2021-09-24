@@ -40,3 +40,28 @@ The same function in erlang shell is as follows:
 2> crypto:strong_rand_bytes(8).
 <<82,108,14,42,155,76,49,52>>
 %
+The best thing to do is create a lagom number of processes.
+Erlang comes from Sweden, and the word lagom loosely translated means
+
+    "not too few, not too many, just about right."
+
+Some say that this summarizes the Swedish character.
+
+― Joe Armstrong, Programming Erlang: Software for a Concurrent World
+
+Source: https://www.goodreads.com/work/quotes/794755-programming-erlang-software-for-a-concurrent-world
+%
+One way I think Erlang was a kind of software emulating Tandem machine.
+
+— Joe Armstrong, Faults, Scaling and Erlang concurrency
+
+Source: https://quotepark.com/authors/joe-armstrong/
+%
+The inability to isolate software components from each other is
+the main reason why many popular programming languages cannot be
+used for making robust system software.
+
+— Joe Armstrong, page 32, Making Reliable Distributed Systems in the Presence of Software Errors
+
+Source: https://quotepark.com/authors/joe-armstrong/
+%
