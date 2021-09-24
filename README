@@ -1,0 +1,18 @@
+# Installation instructions:
+
+It is an addon for the `fortune` or `fortune-mod` package in *nix based
+OS.
+
+# Generating Dat file:
+
+- Clone the repository
+- `cd fortune-mod-beam`
+- `strfile beam`
+
+# Adding the generated files to global fortune installation
+
+- copy the `beam` and `beam.dat` file to `/usr/share/fortune` folder
+
+# Using the beam fortune cookies:
+
+- Just call `fortune beam` to get a fortune cookie from the beam cookies
