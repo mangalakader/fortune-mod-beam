@@ -1,0 +1,42 @@
+Elixir leverages the Erlang VM, known for running low-latency,
+distributed, and fault-tolerant systems. Elixir is successfully
+used in web development, embedded software, data ingestion, and
+multimedia processing, across a wide range of industries.
+%
+Elixir runs on the Erlang VM giving developers complete access
+to Erlang's ecosystem. You can invoke any Erlang function inside
+elixir with no runtime cost.
+%
+Feel free to interact with elixir developers, enthusiasts through:
+Elixir Forum  → https://elixirforum.com
+Github        → https://github.com/elixir-lang/elixir
+IRC           → irc://irc.libera.chat/elixir
+Twitter       → https://twitter.com/elixirlang
+Slack         → https://elixir-slackin.herokuapp.com
+Discord       → https://discord.gg/elixir
+Stackoverflow → https://stackoverflow.com/questions/tagged/elixir
+%
+Elixir REPL is called Interactive Elixir and abbreviated as IEx.
+%
+Mix is a build tool that ships with Elixir that provides tasks for
+creating, compiling, testing your application, managing its
+dependencies and much more.
+%
+To invoke an erlang function from within elixir, use the following
+syntax:
+
+    {colon}{erlang_module_name}{dot}{function_name}(params)
+
+For example,
+
+iex(2)> :crypto.strong_rand_bytes(8)
+<<55, 72, 194, 212, 29, 112, 56, 195>>
+
+Here, `:crypto` is the erlang module name and `strong_rand_bytes` is
+the function name.
+
+The same function in erlang shell is as follows:
+
+2> crypto:strong_rand_bytes(8).
+<<82,108,14,42,155,76,49,52>>
+%
