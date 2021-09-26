@@ -65,3 +65,55 @@ used for making robust system software.
 
 Source: https://quotepark.com/authors/joe-armstrong/
 %
+To read more articles/tutorials about elixir, be sure to follow here:
+
+https://elixirforum.com/t/elixir-blog-posts
+%
+To read more articles/tutorials about phoenix framework, be sure to follow here:
+
+https://elixirforum.com/t/phoenix-blog-posts
+%
+To get more info about a elixir library / dependency:
+- move into the mix project directory
+- `mix hex.info PACKAGE_NAME` where PACKAGE_NAME=elixir_library_name
+
+That gives the latest version and some extra information about the packages
+github repository and so on.
+%
+Do you know, that elixir does support embedded software projects through
+Nerves Project?
+
+Website   :  https://www.nerves-project.org
+Community :  https://elixirforum.com/c/nerves-forum
+Twitter   :  https://twitter.com/NervesProject
+Meetup    :  https://nerves.group
+Github    :  https://github.com/nerves-project/nerves
+Docs      :  https://hexdocs.pm/nerves/getting-started.html
+%
+To access help documentation inside the IEx:
+
+h {MODULE_NAME}.{FUNCTION_NAME}
+
+For example,
+
+iex(1)> h Enum.count
+
+This can really come in handy when you're working offline and you need
+to see how to use a particular function from a module along with examples.
+%
+How to color elixir logs?
+
+require Logger
+
+# To add color to log text
+Logger.info("Elixirforum", ansi_color: :yellow)
+
+# To add highlight / background color
+Logger.info("Elixirforum", ansi_color: :magenta_background)
+
+# To add text color and background color
+Logger.info("Elixirforum", ansi_color: [:yellow, :magenta_background])
+
+Source  : https://www.youtube.com/watch?v=Nc4_DQyerwg
+Channel : https://www.youtube.com/channel/UCiTNXma-lzM6XjhgPQzKREg
+%
