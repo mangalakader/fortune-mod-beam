@@ -117,3 +117,53 @@ Logger.info("Elixirforum", ansi_color: [:yellow, :magenta_background])
 Source  : https://www.youtube.com/watch?v=Nc4_DQyerwg
 Channel : https://www.youtube.com/channel/UCiTNXma-lzM6XjhgPQzKREg
 %
+What is the difference between .ex and .exs files in an elixir project?
+
+.ex files are compiled and written to disk, whereas the .exs files are
+compiled and executed in memory, also they are not written to disk.
+%
+To know more about the data type of an elixir term,
+
+(Assuming you're inside an active IEx shell)
+
+iex(1)> i 2
+Term
+  2
+Data type
+  Integer
+Reference modules
+  Integer
+Implemented protocols
+  IEx.Info, Inspect, List.Chars, String.Chars
+%
+You're into serious debugging, scattering IO.inspects all over the place,
+suddenly you realize, it's not printing the full term and ends with a `...`.
+IO.inspect has an option, that can save you!
+
+IO.inspect(ANY_BIG_BLAH_BLAH, limit: :infinity)
+
+Adding the [limit: :infinity] will print all of the term to the console.
+
+To learn more about IO.inspect Options, type `h Inspect.Opts`.
+%
+"Do. Or do not. There is no try" - Master Yoda explains let it crash
+- Saša Jurić, 3:56 PM · Nov 3, 2013
+
+Source: https://twitter.com/sasajuric/status/397029528108666880
+%
+Why Elixir?
+The language preference is admittedly something subjective, but I feel
+that Elixir really improves on Erlang foundations. With more than three years
+of production level coding in Erlang, and about a year of using Elixir, I
+simply find Elixir experience to be much more pleasant. The resulting code
+seems more compact, and I can be more focused on the problem I’m solving,
+instead of wrestling with excessive noise and boilerplate.
+
+Both Elixir and EVM raise the abstraction bar, and help me tackle
+complex problems with greater ease. This is why I would always put
+my money behind Elixir/EVM combination as the tools of choice for
+building a server-side system.
+- Saša Jurić, Jan 21, 2014
+
+Source: https://www.theerlangelist.com/article/why_elixir
+%
