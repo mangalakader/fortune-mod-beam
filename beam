@@ -167,3 +167,11 @@ building a server-side system.
 
 Source: https://www.theerlangelist.com/article/why_elixir
 %
+Do you want to maintain some community standards in your elixir code?
+
+Try using the `credo` package, which provides detailed insights
+and correction mechanisms.
+
+Documentation : https://hexdocs.pm/credo/overview.html
+Github        : https://github.com/rrrene/credo
+%
