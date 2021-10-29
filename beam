@@ -7,8 +7,9 @@ Elixir runs on the Erlang VM giving developers complete access
 to Erlang's ecosystem. You can invoke any Erlang function inside
 elixir with no runtime cost.
 %
-Feel free to interact with elixir developers, enthusiasts through:
+Feel free to interact with elixir/erlang developers, enthusiasts through:
 Elixir Forum  → https://elixirforum.com
+Erlang Forum  → https://erlangforums.com
 Github        → https://github.com/elixir-lang/elixir
 IRC           → irc://irc.libera.chat/elixir
 Twitter       → https://twitter.com/elixirlang
